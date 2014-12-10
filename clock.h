@@ -16,7 +16,7 @@ public:
   void print12h();
   void print24h();
   void tick();
-  void lapseSecs();
+  void lapseSecs(Clock other);
 
 private:
   char hours_, minutes_, seconds_;

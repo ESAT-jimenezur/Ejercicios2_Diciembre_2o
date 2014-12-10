@@ -29,6 +29,13 @@ void Clock::setTime(char h, char m, char s){
 }
 
 void Clock::print12h(){
+  char tmp_hours_;
+
+  if (hours_ > 12){
+    tmp_hours_ = hours_ - 12;
+  }
+
+  printf("%d:%d:%d", tmp_hours_, minutes_, seconds_);
 
 }
 
@@ -39,9 +46,23 @@ void Clock::print24h(){
 void Clock::tick(){
   if (seconds_ == 59){
     seconds_ = 0;
-    //aumentar horas y minutos
+    if (minutes_ == 59){
+      if (hours_ == 23){
+        //Dias
+      }
+      else{
+        hours_ = hours_ + 1;
+      }
+    }
+    else{
+      minutes_ = minutes_ + 1;
+    }
   }
   else if (seconds_ < 59){
     seconds_ = seconds_ + 1;
   }
+}
+
+void Clock::lapseSecs(Clock other){
+
 }

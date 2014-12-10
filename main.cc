@@ -1,4 +1,4 @@
-/*  main.cc
+/* main.cc
 *  Main function
 *
 *  @author  Jose Luis Jimenez Urbano | <ijos@ijos.es> | < @iJos >
