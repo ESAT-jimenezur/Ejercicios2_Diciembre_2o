@@ -64,5 +64,12 @@ void Clock::tick(){
 }
 
 void Clock::lapseSecs(Clock other){
+  double cheese_bacon;
+  cheese_bacon = other.seconds_;
+
+  printf("%d secods since %d:%d:%d", cheese_bacon, other.hours_, other.minutes_, other.seconds_);
+}
+
+void Clock::lapseClock(Clock other){
 
 }

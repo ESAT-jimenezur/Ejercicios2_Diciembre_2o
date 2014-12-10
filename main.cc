@@ -11,9 +11,9 @@
 int main(int argc, char **argv) {
 
   Clock clock;
+  Clock clock2;
 
-
-  clock.print24h();
+  clock.lapseSecs(clock2);
 
   getchar();
 
