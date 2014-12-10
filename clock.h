@@ -11,13 +11,16 @@
 class Clock {
 public:
   Clock();
-  void setTime();
+
+  void setTime(char h = 0, char m = 0, char s = 0);
   void print12h();
   void print24h();
+  void tick();
+  void lapseSecs();
 
 private:
-  char hours, minutes, seconds;
-  char years, months, days;
+  char hours_, minutes_, seconds_;
+  char years_, months_, days_;
 
 };
 
