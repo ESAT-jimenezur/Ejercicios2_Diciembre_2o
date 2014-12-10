@@ -7,22 +7,21 @@
 
 #include "coche.h"
 
+Coche::Coche(){
+  puertas_ = 3;
+  gasolina_ = 0;
+  abiertas_ = true;
+}
+
 Coche::Coche(int g, int p){
   puertas_ = p;
   gasolina_ = g;
   abiertas_ = true;
 }
 
-
 Coche::Coche(float g){
   puertas_ = 3;
   gasolina_ = g;
-  abiertas_ = true;
-}
-
-Coche::Coche(){
-  puertas_ = 3;
-  gasolina_ = 0;
   abiertas_ = true;
 }
 

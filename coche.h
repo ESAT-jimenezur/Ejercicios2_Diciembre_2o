@@ -12,7 +12,8 @@
 class Coche {
 public:
 	Coche();
-	void init(int g, int p);
+  Coche(float g);
+  Coche(int g, int p);
 	void ponerGasolina(int g);
 	void consumirGasolina(int g);
 	void abrirPuertas();
