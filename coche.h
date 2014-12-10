@@ -27,4 +27,4 @@ private:
 
 };
 
-#endif  // __COCHE_H__
+#endif __COCHE_H__

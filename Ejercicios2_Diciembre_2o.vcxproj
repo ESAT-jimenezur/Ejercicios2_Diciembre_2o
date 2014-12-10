@@ -11,9 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clock.h" />
     <ClInclude Include="coche.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="clock.cc" />
     <ClCompile Include="coche.cc" />
     <ClCompile Include="main.cc" />
   </ItemGroup>

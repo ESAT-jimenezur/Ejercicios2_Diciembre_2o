@@ -18,12 +18,18 @@
     <ClInclude Include="coche.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="coche.cc">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="main.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cc">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
